@@ -1,2 +1,2 @@
-# AllThatStuff_v4
-Multiplayer word association game - my favorite pet project
+# AllThatStuff
+Multiplayer word association game (Version 4 of my favorite pet project)
