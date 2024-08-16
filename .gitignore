@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# SvelteKit build files
+/.svelte-kit
+/build
+/frontend/.svelte-kit
+/frontend/build
+
+# Vite cache
+/frontend/.vite
+
+# dotenv environment variables file
+.env
+
+# MacOS file
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+
+# Other unwanted files
+frontend/public/build/
