@@ -1,6 +1,8 @@
 // import { Low } from 'lowdb';
 // import { JSONFile } from 'lowdb/node';
 
+// TODO: database setup
+
 // // Define the path to the JSON file
 // const adapter = new JSONFile('db.json');
 

@@ -2,11 +2,15 @@ import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
 import dotenv from 'dotenv';
+import cors from 'cors';
 import gameRoutes from './routes/gameRoutes.js';
 
 dotenv.config();
 
-const app = express();
+const app = express(); // Initialize the app
+
+app.use(cors()); // Allow all origins / / Apply CORS middleware
+
 const server = http.createServer(app);
 const io = new Server(server);
 
