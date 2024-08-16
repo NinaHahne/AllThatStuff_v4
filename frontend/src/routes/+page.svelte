@@ -1,4 +1,5 @@
 <script lang="ts">
+    import '../app.css';
     // Define the interface for the game objects
     interface Game {
       id: string;
