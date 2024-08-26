@@ -16,7 +16,8 @@
     // Fetch data from the backend when the component is mounted
     const fetchGames = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/games');
+        // const response = await fetch('http://localhost:5000/api/games');
+        const response = await fetch('https://all-that-stuff-backend.onrender.com/api/games');
         if (!response.ok) {
           throw new Error('Failed to fetch games');
         }
